@@ -39,11 +39,8 @@ form {
 
 .acess label {
   font-size: 1rem;
-  position: relative;
-  bottom: 8px;
-  right: 85px;
-  display: block;
-  margin-top: 25px;
+  position: absolute;
+  margin-top: 20px;
 }
 
 input {
@@ -55,9 +52,10 @@ input {
 }
 
 .acess input {
-  width: 45%;
+  margin-top: 50px;
+  width: 50.5%;
   height: 35px;
-  padding-inline: 10px;
+  padding-inline: 20px;
 }
 
 
@@ -66,14 +64,15 @@ input:focus {
 }
 
 .enviar {
+  width: 54.5%;
   position: relative;
-  top: 12px;
+  top: 45px;
 }
 
 .save {
-  position: relative;
-  right: 60px;
-  margin: 8px;
+  font-size: 1rem;
+  position: absolute;
+  left:29.5%;
 }
 
 input[type='submit'] {
@@ -81,9 +80,8 @@ input[type='submit'] {
   font-size: 18px;
   margin: 25px;
   border: 0;
+  height: 40px;
   border-radius: 7px;
-  padding: 10px;
-  padding-inline: 88px;
   background-color: #FF8802;
   cursor: pointer;
 }
@@ -92,18 +90,27 @@ input[type='submit']:hover {
   background-color: #fe972f;
 }
 
+input[type='checkbox'] + label::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  bottom: 10px;  
+  height: 20px;
+  transform: rotate(45deg);
+
+}
 
 input[type='checkbox']:checked::after {
   content: '';
   position: absolute;
   width: 12px;
-  border-radius: 4px;
+  border-radius: 3px;
   height: 13px;
   background-color: #fe972f;
 }
 
 .help {
   position: relative;
-  bottom: 10px;
+  top: 15px;
   cursor: pointer;
 }

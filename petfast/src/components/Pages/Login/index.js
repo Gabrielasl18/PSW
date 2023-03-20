@@ -9,7 +9,7 @@ const Login = () => {
       <form className="login">
         <h2 className="name-login">login</h2>
       <div className="acess">
-        <label htmlFor="name">Usuário</label>
+        <label htmlFor="name" className="userName">Usuário</label>
           <input
             id="name"
             type="text"
@@ -18,7 +18,7 @@ const Login = () => {
             />
       </div>
       <div className="acess">
-        <label htmlFor="password">Senha</label>
+        <label htmlFor="password" className="password">Senha</label>
           <input
             id="password"
             type="password"
