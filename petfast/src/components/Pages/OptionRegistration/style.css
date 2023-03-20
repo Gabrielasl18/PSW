@@ -1,0 +1,54 @@
+
+h1 {
+    font-size: 60px;
+}
+
+.App-Registration {
+    text-align: center;
+    justify-content: center;
+    background-color: #04ABAB;
+    height: 100vh;
+    /*Viewport Height*/
+    width: 100%;
+}
+
+form {
+    height: 480px;
+    background-color: #048387;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-inline: 10%;
+    left: 22%;
+    margin-top: 78px;
+    justify-content: center;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
+.Voltar {
+    position: relative;
+    top: 180px;
+    font-weight: bold;
+}
+
+
+input[type='submit'] {
+    color: #ffff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #FF8802;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #fe972f;
+}
