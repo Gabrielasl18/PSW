@@ -1,0 +1,51 @@
+html {
+    background-color: white;
+    color: #ffff;
+}
+.Logo{
+    text-align: center;
+    color: #04ABAB;
+}
+.Registration{
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+    background-color: grey;
+    height: 550px;
+}
+.Title{
+    display: flex;
+    flex-direction: column !important;
+    font-style: oblique;
+    color: black;
+}
+#hehe{
+    text-align: center;
+    margin-bottom: 5px;
+    width: 400px;
+    padding: 11px;
+    border-radius: 7px;
+    border: 0;
+    background-color: #B6E0EC;
+}
+#birthday{
+    text-align: center;
+    margin-bottom: 5px;
+    width: 150px;
+    padding: 11px;
+    border-radius: 7px;
+    border: 0;
+    background-color: #B6E0EC;
+}
+#cpf{
+    text-align: center;
+    margin-bottom: 5px;
+    width: 200px;
+    padding: 11px;
+    border-radius: 7px;
+    border: 0;
+    background-color: #B6E0EC;
+}
+
+#heh{
+    padding-bottom: 10px;
+}
