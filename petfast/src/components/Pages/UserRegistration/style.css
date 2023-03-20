@@ -1,15 +1,18 @@
 html {
-    background-color: white;
+    background-color: white !important;
+    text-align: center;
     color: #ffff;
 }
-.Logo{
-    text-align: center;
-    color: #04ABAB;
+#Logo{
+    width: 100%;
+    text-align: center !important;
+    background-color: #04ABAB;
 }
 .Registration{
+    position: absolute;
+    width: 360px;
     text-align: center;
-    margin: 0px 15px 0px 15px;
-    background-color: grey;
+    background-color: white;
     height: 550px;
 }
 .Title{
@@ -19,16 +22,18 @@ html {
     color: black;
 }
 #hehe{
-    text-align: center;
+    margin-left: 8px;
+    display: flex;
     margin-bottom: 5px;
-    width: 400px;
+    width: 320px;
     padding: 11px;
     border-radius: 7px;
     border: 0;
     background-color: #B6E0EC;
 }
 #birthday{
-    text-align: center;
+    margin-left: 8px;
+    display: flex;
     margin-bottom: 5px;
     width: 150px;
     padding: 11px;
@@ -37,7 +42,8 @@ html {
     background-color: #B6E0EC;
 }
 #cpf{
-    text-align: center;
+    margin-left: 8px;
+    display: flex;
     margin-bottom: 5px;
     width: 200px;
     padding: 11px;
@@ -47,5 +53,44 @@ html {
 }
 
 #heh{
+    width: 360px;
     padding-bottom: 10px;
 }
+
+#input-description{
+    margin-left: 10px;
+    color: grey;
+    display: flex;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#Buttons{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+#Voltar{
+  margin-left: 8px;
+  color: #ffff;
+  font-size: 18px;
+  border: 0;
+  border-radius: 7px;
+  padding: 10px;
+  background-color: gray;
+  cursor: pointer;
+}
+#Confirmar{
+  color: #ffff;
+  font-size: 18px;
+  border: 0;
+  border-radius: 7px;
+  padding: 10px;
+  background-color: #04ABAB;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
