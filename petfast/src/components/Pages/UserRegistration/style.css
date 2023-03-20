@@ -3,25 +3,29 @@ html {
     text-align: center;
     color: #ffff;
 }
-#Logo{
-    width: 100%;
-    text-align: center !important;
-    background-color: #04ABAB;
-}
-.Registration{
+
+.Registration {
     position: absolute;
-    width: 360px;
+    width: 100%;
     text-align: center;
-    background-color: white;
     height: 550px;
 }
-.Title{
+
+.camp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.Title {
     display: flex;
     flex-direction: column !important;
     font-style: oblique;
     color: black;
 }
-#hehe{
+
+#hehe {
     margin-left: 8px;
     display: flex;
     margin-bottom: 5px;
@@ -31,7 +35,8 @@ html {
     border: 0;
     background-color: #B6E0EC;
 }
-#birthday{
+
+#birthday {
     margin-left: 8px;
     display: flex;
     margin-bottom: 5px;
@@ -41,7 +46,8 @@ html {
     border: 0;
     background-color: #B6E0EC;
 }
-#cpf{
+
+#cpf {
     margin-left: 8px;
     display: flex;
     margin-bottom: 5px;
@@ -52,45 +58,36 @@ html {
     background-color: #B6E0EC;
 }
 
-#heh{
+#heh {
+    text-align: left;
     width: 360px;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-#input-description{
-    margin-left: 10px;
+#input-description {
     color: grey;
-    display: flex;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
 }
 
-#Buttons{
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between !important;
+#Buttons button {
+    color: #ffff;
+    border: 0;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-inline: 40px;
 }
 
-#Voltar{
-  margin-left: 8px;
-  color: #ffff;
-  font-size: 18px;
-  border: 0;
-  border-radius: 7px;
-  padding: 10px;
-  background-color: gray;
-  cursor: pointer;
-}
-#Confirmar{
-  color: #ffff;
-  font-size: 18px;
-  border: 0;
-  border-radius: 7px;
-  padding: 10px;
-  background-color: #04ABAB;
-  cursor: pointer;
-  margin-right: 10px;
+#Voltar {
+    padding:10px;
+    background-color: gray;
 }
 
-
+#Confirmar {
+    padding:10px;
+    margin-left: 55px; 
+    background-color: #04ABAB;
+}

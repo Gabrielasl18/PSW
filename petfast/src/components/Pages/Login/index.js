@@ -1,5 +1,5 @@
 import whiteIcon from '../../../assets/whiteIcon.png';
-import './index.css';
+import './style.css';
 
 const Login = () => {
 
@@ -14,7 +14,7 @@ const Login = () => {
             id="name"
             type="text"
             name="user"
-            placeholder='Digite seu usuário'
+            placeholder='Usuário'
             />
       </div>
       <div className="acess">
@@ -23,7 +23,7 @@ const Login = () => {
             id="password"
             type="password"
             name="password"
-            placeholder="Digite sua senha"
+            placeholder="Senha"
           />
       </div>
       <div className="save">

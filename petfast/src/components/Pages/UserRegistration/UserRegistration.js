@@ -1,28 +1,39 @@
 import './style.css';
-import whiteIcon from '../../../assets/whiteIcon.png';
+import blueIcon from '../../../assets/blueIcon.png';
 
 const UserRegistration = () => {
   return (
     <div className="App">
       <div id='Logo'>
-        <img src={whiteIcon} alt="logo"/>
+        <img src={blueIcon} alt="logo"/>
       </div>
-        
         <div className='Registration'>
+          <div className="camp">
           <h2 className='Title'>Cadastro de usuário</h2>
-          <p id='input-description'>Nome completo: </p>
-          <div id='heh'><input id='hehe' type="text" placeholder="Nome Completo"/></div>
-          <p id='input-description'>CPF: </p>
-          <div id='heh'><input id='cpf' type="number" placeholder="CPF"/></div>
-          <p id='input-description'>Data de nascimento: </p>
-          <div id='heh'><input id='birthday' type="date" placeholder="Data de nascimento"/></div>
-          <p id='input-description'>Email: </p>
-          <div id='heh'><input id='hehe' type="text" placeholder="email"/></div>
-          <p id='input-description'>Senha: </p>
-          <div id='heh'><input id='hehe' type="password" placeholder="Senha"/></div>
-          <div id='Buttons'>
+          <div id='heh'>
+            <label id='input-description'>Nome completo: </label>
+            <input id='hehe' type="text" placeholder="Nome Completo"/>
+          </div>
+          <div id='heh'>
+            <label id='input-description' >CPF: </label>
+            <input id='cpf' type="number" placeholder="CPF"/>
+            </div>
+          <div id='heh'>
+            <label id='input-description'>Data de nascimento: </label>
+            <input id='birthday' type="date" placeholder="Data de nascimento"/>
+            </div>
+          <div id='heh'>
+            <label id='input-description'>Email: </label>
+            <input id='hehe' type="text" placeholder="email"/>
+            </div>
+          <div id='heh'>
+            <label id='input-description'>Senha: </label>
+            <input id='hehe' type="password" placeholder="Senha"/>
+            </div>
+            <div id='Buttons'>
             <button id='Voltar' type="submit">Voltar</button>
             <button id='Confirmar' type="submit">Confirmar</button>
+            </div>
           </div>
         </div>
     </div>  
