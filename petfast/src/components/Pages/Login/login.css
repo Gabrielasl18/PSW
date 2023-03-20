@@ -1,0 +1,82 @@
+html {
+  background-color: #04ABAB;
+  color: #ffff;
+}
+
+form {
+  position: absolute;
+  width: 50%;
+  height: 480px;
+  background-color: #048387;
+  border-radius: 10px;
+  padding: 30px;
+  left: 22%;
+}
+
+h2{
+    position: relative;
+    bottom: 30px;
+    text-transform: uppercase;
+}
+  
+.acess label {
+    font-size: 1rem;
+    position: relative;
+    bottom: 8px;
+    right: 85px;
+    display: block;
+    margin-top: 25px;
+}
+  
+  input {
+    text-align: center;
+    margin-bottom: 5px;
+    max-width: 100%;
+    padding: 11px;
+    border-radius: 7px;
+    border: 0;
+    background-color: #B6E0EC;
+  }
+  
+  input:focus {
+    outline: 0;
+  }
+  
+  .enviar {
+    position: relative;
+    top: 12px;
+  }
+  
+  .save {
+    position: relative;
+    right: 55px;
+    margin: 8px;
+  }
+  
+  .save input[type="checkbox"]:checked::before {
+  }
+  
+  input[type='submit'] {
+    color: #ffff;
+    font-size: 18px;
+    margin: 25px;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px;
+    padding-inline: 5.5%;
+    background-color: #FF8802;
+    cursor: pointer;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #fe972f;
+  }
+
+  .help {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .App {
+    text-align: center;
+  }
