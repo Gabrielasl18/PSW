@@ -1,11 +1,13 @@
-import './login.css';
+import whiteIcon from '../../../assets/whiteIcon.png';
+import './index.css';
 
 const Login = () => {
+
   return (
-    <div className="App">
-      <h1>PetFast</h1>
+    <div className="App-login">
+      <img src={whiteIcon} alt="logo"/>
       <form className="login">
-        <h2>login</h2>
+        <h2 className="name-login">login</h2>
       <div className="acess">
         <label htmlFor="name">Usuário</label>
           <input
@@ -13,7 +15,7 @@ const Login = () => {
             type="text"
             name="user"
             placeholder='Digite seu usuário'
-          />
+            />
       </div>
       <div className="acess">
         <label htmlFor="password">Senha</label>
@@ -34,8 +36,8 @@ const Login = () => {
       </div>
       <input className="enviar" type="submit" value="Enviar" />
       <div className="help">
-          <p>Esqueceu a senha?</p>
-          <p>Cadastre-se</p>
+          <p onClick={() => {}}>Esqueceu a senha?</p>
+          <p onClick={() => {}}>Cadastre-se</p>
       </div>
       </form>
     </div>  

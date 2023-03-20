@@ -1,0 +1,30 @@
+html {
+    background-color: #ffff;
+}
+
+.img-blueIcon {
+    display: block;
+    margin: 0 auto;
+}
+
+.app {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.input-search {
+    margin-top: 26px;
+    padding-inline: 20%;
+    height: 27px;
+}
+
+
+input::placeholder {
+    color: #048387;
+    opacity: 50%;
+}
+
