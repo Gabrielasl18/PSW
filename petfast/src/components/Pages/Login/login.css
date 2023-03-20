@@ -53,9 +53,6 @@ h2{
     margin: 8px;
   }
   
-  .save input[type="checkbox"]:checked::before {
-  }
-  
   input[type='submit'] {
     color: #ffff;
     font-size: 18px;
