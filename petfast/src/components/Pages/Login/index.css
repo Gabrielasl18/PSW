@@ -1,9 +1,10 @@
-html {
-  background-color: #04ABAB !important;
+html  {
   color: #ffff;
   align-items: center;
   justify-content: center;
+  margin: 0px;
 }
+
 
 h1 {
   font-size: 60px;
@@ -12,6 +13,9 @@ h1 {
 .App-login {
   text-align: center;
   justify-content: center;
+  background-color: #04ABAB;
+  height: 100vh; /*Viewport Height*/
+  width: 100%;
 }
 
 form {
@@ -45,12 +49,17 @@ form {
 input {
   margin-bottom: 5px;
   max-width: 100%;
-  padding: 11px;
-  padding-inline: 30px;
   border-radius: 7px;
   border: 0;
   background-color: #B6E0EC;
 }
+
+.acess input {
+  width: 45%;
+  height: 35px;
+  padding-inline: 10px;
+}
+
 
 input:focus {
   outline: 0;
@@ -80,6 +89,16 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
+  background-color: #fe972f;
+}
+
+
+input[type='checkbox']:checked::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  border-radius: 4px;
+  height: 13px;
   background-color: #fe972f;
 }
 
