@@ -3,6 +3,7 @@ import Login from './components/Pages/Login/index.js';
 import Home from './components/Pages/Home/index.js'
 import Carrinho from './components/Pages/Carrinho/index.js'
 import UserRegistration from './components/Pages/UserRegistration/UserRegistration.js'
+import PetRegistration from './components/Pages/PetRegistration/index.js'
 import EstablishmentRegistration from './components/Pages/OptionRegistration/index.js'
 import OptionRegistration from './components/Pages/OptionRegistration/index.js';
 
@@ -13,7 +14,8 @@ function App() {
         <Route path="/" element={<Login/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/carrinho" element={<Carrinho/>}/>
-        <Route path="/registrar" element={<UserRegistration/>}/>
+        <Route path="/registrarUser" element={<UserRegistration/>}/>
+        <Route path="/registrarPet" element={<PetRegistration/>}/>
         <Route path="/registrarEstabelecimento" element={<OptionRegistration/>}/>
       </Routes>
     </Router>
