@@ -5,6 +5,7 @@ import Carrinho from './components/Pages/Carrinho/index.js'
 import UserRegistration from './components/Pages/UserRegistration/UserRegistration.js'
 import EstablishmentRegistration from './components/Pages/OptionRegistration/index.js'
 import OptionRegistration from './components/Pages/OptionRegistration/index.js';
+import Menu from './components/Pages/menu/index.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/carrinho" element={<Carrinho/>}/>
         <Route path="/registrar" element={<UserRegistration/>}/>
         <Route path="/registrarEstabelecimento" element={<OptionRegistration/>}/>
+        <Route path="/menu" element={<Menu/>}/>
       </Routes>
     </Router>
   );
