@@ -6,14 +6,18 @@ const OptionRegistration= () => {
 return (
     <div className="App-Registration">
         <img src={whiteIcon} alt="logo"/>
-        <form className="registration">
-        <h2 className="option-registration">Você está se cadastrando como:</h2>
-        <div className="Buttons">
-        <input className="Consumidor" type="submit" value="Consumidor" />
-        <input className="Estabelecimento" type="submit" value="Estabelecimento" />
+        <div className="login">
+        <form>
+            <h2 className="text-registration">Você está se cadastrando como:</h2>
+        <div className="clicks">
+        <input className="text-input" type="submit" value="Consumidor" />
+        <input className="text-input" type="submit" value="Estabelecimento" />
+            </div>
+            <div className="back">
+            <p onClick={() => {}}>Voltar</p>
         </div>
-        <p className="Voltar" onClick={() => {}}>Voltar</p>
         </form>
+            </div>
     </div>  
 );
 }

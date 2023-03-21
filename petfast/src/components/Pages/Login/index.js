@@ -6,8 +6,10 @@ const Login = () => {
   return (
     <div className="App-login">
       <img src={whiteIcon} alt="logo"/>
-      <form className="login">
+      <div className="login">
+      <form>
         <h2 className="name-login">login</h2>
+        <div className="acess-inputs">
       <div className="acess">
         <label htmlFor="name" className="userName">Usuário</label>
           <input
@@ -24,7 +26,7 @@ const Login = () => {
             type="password"
             name="password"
             placeholder="Senha"
-          />
+            />
       </div>
       <div className="save">
         <input
@@ -34,12 +36,16 @@ const Login = () => {
           value="save" />
           <label>Lembrar-me</label>
       </div>
+          </div>
+      <div className="clicks">
       <input className="enviar" type="submit" value="Acessar" />
       <div className="help">
           <p onClick={() => {}}>Esqueceu a senha?</p>
           <p onClick={() => {}}>Cadastre-se</p>
       </div>
+        </div>
       </form>
+          </div>
     </div>  
   );
 }

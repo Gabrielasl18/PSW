@@ -1,4 +1,4 @@
-import './menu.css';
+import './style.css';
 import profile from '../../../assets/profile.svg';
 import home from '../../../assets/home.svg';
 import bag from '../../../assets/bag.svg';

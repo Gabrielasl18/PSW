@@ -18,23 +18,30 @@ h1 {
   width: 100%;
 }
 
-form {
-  height: 480px;
+.login {
   background-color: #048387;
   border-radius: 10px;
-  padding: 30px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-inline: 10%;
-  left: 22%;
-  margin-top: 78px;
-  justify-content: center;
+  width: 500px;
+  max-width: 85%;
+  margin: 0 auto;
+  height: 600px;
+}
+
+form {
+  max-height: 100%;
+  height: 600px;
 }
 
 .name-login {
   position: relative;
-  bottom: 30px;
+  top: 30px;
   text-transform: uppercase;
+}
+
+
+.acess-inputs {
+  position: relative;
+  top: 30px;
 }
 
 .acess label {
@@ -63,17 +70,18 @@ input:focus {
   outline: 0;
 }
 
+.save {
+  display: flex;
+  justify-content: left;
+  margin-left: 18%;
+}
+
 .enviar {
   width: 54.5%;
   position: relative;
   top: 45px;
 }
 
-.save {
-  font-size: 1rem;
-  position: absolute;
-  left:29.5%;
-}
 
 input[type='submit'] {
   color: #ffff;
@@ -113,4 +121,8 @@ input[type='checkbox']:checked::after {
   position: relative;
   top: 15px;
   cursor: pointer;
+}
+
+.clicks {
+  position: relative;
 }
