@@ -1,0 +1,70 @@
+.app {
+    display: flex;
+}
+
+.textoCarrinho {
+    color: black;
+    font-weight: bold !important;
+}
+
+.itens {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.list-group-item {
+    color: black;
+    display:flex;
+    font-weight: bold;
+}
+
+.listaCarrinho {
+    display: flex;
+    justify-content: center;
+}
+
+.endereco {
+    display: block;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.exemplo {
+    font-weight: bold;
+    margin-top: 17px;
+}
+
+.pagamento {
+    display: block;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.botaoBox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 94px;
+}
+
+.botaoCancelar {
+    background-color: #D9D9D9;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 136px;
+    height: 47px;
+    font-size: 20px;
+}
+
+.botaoConfirmar {
+    background-color: #048387;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 136px;
+    height: 47px;
+    font-size: 20px;
+}
+
