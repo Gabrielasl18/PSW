@@ -1,11 +1,47 @@
-.buttons {
-    background-color: aqua;
-    display: flex;
+.menu {
     width: 100%;
-    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    color: #FFF;
+    text-align: center;
+    line-height: 90px;
+    border-top: 2px solid #B6E0EC;
 }
 
-.profileButton {
+.buttons {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+label {
+    height: 0px;
+    background-color: blue;
+}
+
+button {
+    display: flex;
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 80px;
+    width: 15%;
+    padding-left: 12px;
+}
+
+
+.text {
+    color: #048387;
+    font-weight: bold;
+    position: relative;
+    bottom: 13px;
+    right: 30px;
+}
+
+.img-bag {
+    position: relative;
+    left: 10px;
 }

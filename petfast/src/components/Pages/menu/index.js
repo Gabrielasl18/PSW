@@ -6,21 +6,20 @@ import bag from '../../../assets/bag.svg';
 const Menu = () => {
 
     return (
-        <div className="App">
+        <div className="menu">
             <div className="buttons">
                 <button className='profileButton'>
-                    <img src={profile}/>
-                    <text className='profileTitle'>perfil</text>
+                    <img src={profile} alt="perfil" className="img-perfil"/>
+                    <label className='text perfiltext'>Perfil</label>
                 </button>
-
                 <button className='homeButton'>
                     <img src={home} alt="inicio" className="img-home"/>
-                    <text className='homeTitle'>início</text>
+                    <label className='text inicio'>Início</label>
                 </button>
 
                 <button className='bagButton'>
                     <img src={bag} alt="carrinho" className="img-bag"/>
-                    <text className='bagTitle'>carrinho</text>
+                    <label className='text carrinho'>Carrinho</label>
                 </button>
                 </div>
         </div>  
