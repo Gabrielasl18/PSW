@@ -27,7 +27,7 @@ const Carrinho = () => {
 
             <div className='endereco'> 
                 <h2 className='textoCarrinho'>Endereço</h2>
-                <p className='exemplo'>"endereço inserido pelo usuário na hora do cadastro"</p>
+                <input type="text" placeholder='Insira o seu endereço' className="input-address"/>
             </div>
 
             <div className='pagamento'> 
