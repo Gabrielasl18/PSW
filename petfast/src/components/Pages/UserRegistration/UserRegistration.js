@@ -12,11 +12,11 @@ const UserRegistration = () => {
           <h2 className='Title'>Cadastro de usuário</h2>
           <div id='heh'>
             <label id='input-description'>Nome completo: </label>
-            <input id='hehe' type="text" placeholder="Nome Completo"/>
+            <input id='hehe' type="text" placeholder="Digite o Nome Completo"/>
           </div>
           <div id='heh'>
             <label id='input-description' >CPF: </label>
-            <input id='cpf' type="number" placeholder="CPF"/>
+            <input id='cpf' type="number" placeholder="Digite o CPF"/>
             </div>
           <div id='heh'>
             <label id='input-description'>Data de nascimento: </label>
@@ -24,11 +24,23 @@ const UserRegistration = () => {
             </div>
           <div id='heh'>
             <label id='input-description'>Email: </label>
-            <input id='hehe' type="text" placeholder="email"/>
-            </div>
+            <input id='hehe' type="text" placeholder="Digite o email"/>
+          </div>
           <div id='heh'>
             <label id='input-description'>Senha: </label>
-            <input id='hehe' type="password" placeholder="Senha"/>
+            <input id='hehe' type="password" placeholder="Digite a Senha"/>
+            </div>
+            <div id='heh'>
+            <label id='input-description' >CEP: </label>
+            <input id='cpf' type="number" placeholder="Digite o CEP"/>
+            </div>
+            <div id='heh'>
+            <label id='input-description'>Endereço: </label>
+            <input id='hehe' type="text" placeholder="Digite o endereço"/>
+            </div>
+            <div id='heh'>
+            <label id='input-description'>Foto: </label>
+            <input id='hehe' type="file" />
             </div>
             <div id='Buttons'>
             <button id='Voltar' type="submit">Voltar</button>
