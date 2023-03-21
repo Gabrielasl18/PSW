@@ -31,14 +31,6 @@ const UserRegistration = () => {
             <input id='hehe' type="password" placeholder="Digite a Senha"/>
             </div>
             <div id='heh'>
-            <label id='input-description' >CEP: </label>
-            <input id='cpf' type="number" placeholder="Digite o CEP"/>
-            </div>
-            <div id='heh'>
-            <label id='input-description'>Endereço: </label>
-            <input id='hehe' type="text" placeholder="Digite o endereço"/>
-            </div>
-            <div id='heh'>
             <label id='input-description'>Foto: </label>
             <input id='hehe' type="file" />
             </div>
