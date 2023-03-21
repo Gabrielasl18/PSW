@@ -73,7 +73,7 @@ input:focus {
 .save {
   display: flex;
   justify-content: left;
-  margin-left: 18%;
+  margin-left: 21%;
 }
 
 .enviar {
@@ -125,4 +125,5 @@ input[type='checkbox']:checked::after {
 
 .clicks {
   position: relative;
+  top:25px;
 }
