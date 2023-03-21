@@ -34,7 +34,7 @@ const Login = () => {
           value="save" />
           <label>Lembrar-me</label>
       </div>
-      <input className="enviar" type="submit" value="Enviar" />
+      <input className="enviar" type="submit" value="Acessar" />
       <div className="help">
           <p onClick={() => {}}>Esqueceu a senha?</p>
           <p onClick={() => {}}>Cadastre-se</p>
