@@ -7,6 +7,7 @@ import PetRegistration from './components/Pages/PetRegistration/index.js'
 import PetSelection from './components/Pages/PetSelection/index.js'
 import EstablishmentRegistration from './components/Pages/OptionRegistration/index.js'
 import OptionRegistration from './components/Pages/OptionRegistration/index.js';
+import MenuWeb from './components/Pages/menu-web/index.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/registrarPet" element={<PetRegistration/>}/>
         <Route path="/selecionarPet" element={<PetSelection/>}/>
         <Route path="/registrarEstabelecimento" element={<OptionRegistration/>}/>
+        <Route path="/menuWeb" element={<MenuWeb/>}/>
       </Routes>
     </Router>
   );
